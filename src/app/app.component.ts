@@ -33,14 +33,7 @@ export class AppComponent {
   }
 
   register() {
-    this.af.auth.createUser({
-      email: 'tssardelis@gmail.com',
-      password: '18082007'
-    })
-      .then(authState => {
-        authState.auth.sendEmailVerification()
-      })
-      .catch(authState => { console.log("error ", authState) })
+  
   }
 
   login() {

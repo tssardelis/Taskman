@@ -7,12 +7,7 @@ import { AppComponent } from './app.component';
 import {ReversePipe}from './datePipe';
 import { NavbarComponent } from './navbar/navbar.component'
 export const firebaseConfig={
-  apiKey: "AIzaSyA43YWVWS9dJjEwWS2KE-wMy3TFAaF6tig",
-  authDomain: "tasosapp-4d79b.firebaseapp.com",
-  databaseURL: "https://tasosapp-4d79b.firebaseio.com",
-  projectId: "tasosapp-4d79b",
-  storageBucket: "tasosapp-4d79b.appspot.com",
-  messagingSenderId: "908975523018"
+  
 }
 
 @NgModule({
